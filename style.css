@@ -1,3 +1,7 @@
+html{
+    margin: 0px;
+    padding: 0px;
+}
 .navbar{
     display: flex;
     list-style-type: none;
@@ -89,4 +93,53 @@ a{
 
 .otherparent{
     display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    gap: 15px;
+}
+
+.otherchild{
+    border-radius: 4px;
+    border: 1px solid rgb(139,127,127);  
+    width: 20vw;
+    height: 10vh;
+    background-color: white;
+    font-size: 16px;
+    margin-left: 2%;
+}
+
+.textarea{
+    padding-top: 2%;
+    margin-left:2%;
+}
+
+.contain{
+    margin-left:3%;
+    text-align: justify;
+    padding-right: 3%;
+}
+.three{
+    
+    background-color: rgb(241,241,241);
+    width: 100vw;
+    height: 70vh;
+}
+
+.four{
+    margin-top: 3%;
+    display: flex;
+    justify-content: space-between;
+}
+li{
+    list-style-type: none;
+}
+
+.fa-facebook{
+    color: royalblue;
+}
+.fa-instagram{
+    color: rgb(228, 65, 92);
+}
+.fa-twitter{
+    color: rgb(16, 186, 253);
 }
