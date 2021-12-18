@@ -1,0 +1,51 @@
+.navbar{
+    display: flex;
+    list-style-type: none;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    gap: 10px;
+    margin-top: 1.6rem;
+}
+
+.child{
+    margin-top: 15px;
+    color: rgb(139,127,127);
+}
+
+.first{
+    height: 100vh;
+    display: flex;
+    justify-content: space-around;
+    background-image:  url(images/login-banner-dhoni-bg.webp),linear-gradient(rgb(229,223,204),rgb(241, 237, 201));
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.loginform{
+    margin-top: 2.2rem;
+    height: 75vh;
+    width: 40vw;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    
+}
+.h1{
+    text-align: center;
+    margin-bottom: 5%;
+}
+.input{
+    height: 8%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    margin-left: 4%;
+    margin-right: 4%;
+    border-radius: 4px;
+    border: 1px solid rgb(139,127,127);
+}
+
+.submit{
+    background-color: rgb(255,152,0);
+    color: white;
+    border: 2px solid rgb(255,152,0);
+}
