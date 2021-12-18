@@ -51,6 +51,7 @@ html{
 }
 
 .submit{
+    
     background-color: rgb(255,152,0);
     color: white;
     border: 2px solid rgb(255,152,0);
@@ -128,6 +129,7 @@ a{
 .four{
     margin-top: 3%;
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
 }
 li{
