@@ -28,6 +28,8 @@
     display: flex;
     flex-direction: column;
     background-color: white;
+    border: 2px solid rgb(229,223,204);
+    border-radius: 8px;
     
 }
 .h1{
@@ -48,4 +50,43 @@
     background-color: rgb(255,152,0);
     color: white;
     border: 2px solid rgb(255,152,0);
+}
+
+.resetpassword{
+    margin-top: 5px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 18px;
+    color: rgba(0, 0, 0, 0.671);
+}
+
+a{
+    text-decoration: none;
+}
+
+.textcolor{
+    color: rgb(255,152,0);
+    
+}
+.textdec{
+    font-weight: 200;
+}
+
+.second{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    margin-top: 10px;
+    justify-content: space-evenly;
+}
+
+.second1, .second2, .second3{
+    text-align: center;
+    font-size: 16px;
+    font-weight: 700;
+    color: rgba(0, 0, 0, 0.881);
+}
+
+.otherparent{
+    display: flex;
 }
