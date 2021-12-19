@@ -167,3 +167,6 @@ li{
       text-align: center;
   }
  
+  .otherchild:hover{
+      cursor: pointer;
+  }
