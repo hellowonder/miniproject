@@ -17,17 +17,23 @@ html{
     color: rgb(139,127,127);
 }
 
+.subdec{
+    margin-top: 5px;
+    text-align: center;
+    font-weight: 400;
+}
+
 .first{
     height: 100vh;
     display: flex;
     justify-content: space-around;
-    background-image:  url(images/login-banner-dhoni-bg.webp),linear-gradient(rgb(229,223,204),rgb(241, 237, 201));
+    background-image:  url(images/login-otp-banner.webp),linear-gradient(rgb(229,223,204),rgb(241, 237, 201));
     background-repeat: no-repeat;
     background-size: contain;
 }
 .loginform{
     margin-top: 2.2rem;
-    height: 75vh;
+    height: 50vh;
     width: 40vw;
     display: flex;
     flex-direction: column;
@@ -35,6 +41,19 @@ html{
     border: 2px solid rgb(229,223,204);
     border-radius: 8px;
     
+}
+.h1{
+    text-align: center;
+    margin-bottom: 5%;
+}
+.input{
+    height: 8%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    margin-left: 4%;
+    margin-right: 4%;
+    border-radius: 4px;
+    border: 1px solid rgb(139,127,127);
 }
 
 .submit{
@@ -44,19 +63,24 @@ html{
     border: 2px solid rgb(255,152,0);
 }
 
-.h1{
+.resetpassword{
+    margin-top: 5px;
     text-align: center;
-    margin-bottom: 5%;
+    text-decoration: none;
+    font-size: 18px;
+    color: rgba(0, 0, 0, 0.671);
 }
 
-.input{
-    height: 8%;
-    margin-top: 2%;
-    margin-bottom: 2%;
-    margin-left: 4%;
-    margin-right: 4%;
-    border-radius: 4px;
-    border: 1px solid rgb(139,127,127);
+a{
+    text-decoration: none;
+}
+
+.textcolor{
+    color: rgb(255,152,0);
+    
+}
+.textdec{
+    font-weight: 200;
 }
 
 .second{
@@ -74,8 +98,50 @@ html{
     color: rgba(0, 0, 0, 0.881);
 }
 
-.five{
-    text-align: center;
+.otherparent{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    gap: 15px;
+}
+
+.otherchild{
+    border-radius: 4px;
+    border: 1px solid rgb(139,127,127);  
+    width: 20vw;
+    height: 10vh;
+    background-color: white;
+    font-size: 16px;
+    margin-left: 2%;
+    overflow-wrap: break-word
+}
+
+.textarea{
+    padding-top: 2%;
+    margin-left:2%;
+}
+
+.contain{
+    margin-left:3%;
+    text-align: justify;
+    padding-right: 3%;
+}
+.three{
+    
+    background-color: rgb(241,241,241);
+    width: 100vw;
+    height: 70vh;
+}
+
+.four{
+    margin-top: 3%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    text-align: left;
+}
+li{
+    list-style-type: none;
 }
 
 .fa-facebook{
@@ -88,19 +154,6 @@ html{
     color: rgb(16, 186, 253);
 }
 
-.head{
-    text-align: center;
-    background-color: rgb(229,223,204);
-    margin-bottom: 0px;
-}
-
-.textdec1{
-    text-align: center;
-}
-
-a{
-    text-decoration: none;
-}
 
 @media screen and (max-width: 535px) {
     .three{
@@ -114,4 +167,17 @@ a{
       background: none;
       background-color: linen;
     }
+  }
+
+  .five{
+      text-align: center;
+  }
+ 
+  .otherchild:hover{
+      cursor: pointer;
+  }
+
+  a{
+      text-decoration: none;
+      color: rgb(51, 46, 46);
   }

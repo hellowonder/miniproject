@@ -170,3 +170,8 @@ li{
   .otherchild:hover{
       cursor: pointer;
   }
+
+  a{
+      text-decoration: none;
+      color: rgb(51, 46, 46);
+  }
