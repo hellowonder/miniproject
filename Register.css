@@ -87,3 +87,17 @@ html{
 .fa-twitter{
     color: rgb(16, 186, 253);
 }
+
+.head{
+    text-align: center;
+    background-color: rgb(229,223,204);
+    margin-bottom: 0px;
+}
+
+.textdec1{
+    text-align: center;
+}
+
+a{
+    text-decoration: none;
+}
