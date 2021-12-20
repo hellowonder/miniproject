@@ -63,6 +63,10 @@ html{
     border: 2px solid rgb(255,152,0);
 }
 
+.submit{
+    cursor: pointer;
+}
+
 .resetpassword{
     margin-top: 5px;
     text-align: center;
@@ -181,3 +185,9 @@ li{
       text-decoration: none;
       color: rgb(51, 46, 46);
   }
+
+  .childsearch{
+    margin-top: -15px;
+    border: none;
+    color: rgb(139,127,127);
+}

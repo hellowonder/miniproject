@@ -17,6 +17,12 @@ html{
     color: rgb(139,127,127);
 }
 
+.childsearch{
+    margin-top: -15px;
+    border: none;
+    color: rgb(139,127,127);
+}
+
 .first{
     height: 100vh;
     display: flex;
@@ -42,6 +48,9 @@ html{
     background-color: rgb(255,152,0);
     color: white;
     border: 2px solid rgb(255,152,0);
+}
+.submit{
+    cursor: pointer;
 }
 
 .h1{
