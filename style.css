@@ -154,7 +154,7 @@ li{
 
 @media screen and (max-width: 535px) {
     .three{
-        height: 90vh;
+        height: 100vh;
     }
     .first{
         width: 100vw;
@@ -201,3 +201,6 @@ a{
     }
     
 }
+
+
+
