@@ -156,6 +156,9 @@ li{
     .three{
         height: 90vh;
     }
+    .first{
+        width: 100vw;
+    }
     .four{
         display: block;
         text-align: center;
@@ -164,23 +167,37 @@ li{
       background: none;
       background-color: linen;
     }
-  }
 
-  .five{
-      text-align: center;
-  }
+    .loginform{
+        width: 100vw;
+    }
+}
+
+.five{
+    text-align: center;
+}
  
-  .otherchild:hover{
-      cursor: pointer;
-  }
+.otherchild:hover{
+  cursor: pointer;
+}
 
-  a{
-      text-decoration: none;
-      color: rgb(51, 46, 46);
-  }
+a{
+  text-decoration: none;
+  color: rgb(51, 46, 46);
+}
 
-  .childsearch{
+.childsearch{
     margin-top: -15px;
     border: none;
     color: rgb(139,127,127);
+  
+}
+
+
+@media screen and (max-width: 397px) {
+    
+    .childsearch{
+        margin-top: 5px;
+    }
+    
 }
