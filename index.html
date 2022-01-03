@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
         integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
     <link rel="stylesheet" href="style.css">
+    <script src="app.js" defer></script>
 </head>
 
 <body>
@@ -55,8 +56,12 @@
             </div>
             <form action="" method="post" class="loginform">
                 <h1 class="h1 textdec">Existing Member? Login</h1>
-                <input type="text" name="" id="email" placeholder="Enter E-Mail ID/Mobile No" class="input">
-                <input type="password" name="" id="password" placeholder="Enter Password" class="input">
+                <input type="text" name="" id="email" placeholder="Enter E-Mail ID/Mobile No" class="input"
+                    onkeyup="Validate()">
+                <span></span>
+                <input type="password" name="" id="password" placeholder="Enter Password" class="input"
+                    onkeyup="ValidatePassword()">
+                <span></span>
                 <button value="submit" class="input submit">LOGIN</button>
                 <a href="forgot.html" class="resetpassword">
                     Forgot password?
