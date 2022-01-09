@@ -8,3 +8,11 @@ function Validate() {
     email.style.color = 'red'
   }
 }
+
+function forgotvalid() {
+  var email = document.getElementById('email')
+  if ((email.value = '')) {
+    email.nextElementSibling.innerHTML = 'Enter Valid Email-ID'
+    console.log(email.nextElementSibling)
+  }
+}
