@@ -45,6 +45,7 @@ async function loginValidation() {
     if (item.email == check1 && item.password == check2) {
       alert('Sign in Successfully')
       flag = true
+      location.href = './Feedback_form.html'
       break
     }
   }
@@ -52,5 +53,5 @@ async function loginValidation() {
   if (flag == false) {
     alert('Please enter correct email and password')
   }
-  location.href = './index.html'
+  // location.href = './Feedback_form.html'
 }

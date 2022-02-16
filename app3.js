@@ -59,8 +59,10 @@ async function validation() {
     }
   }
 
-  if (check ) {
-  let url = 'http://localhost:4000/add-user'
-  const data = await axios.post(url, dat)
+  if (check) {
+    let url = 'http://localhost:4000/add-user'
+    const data = await axios.post(url, dat)
+    alert('Account Created Successfully')
+    location.href = './index.html'
   }
 }

@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Feedback</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+
+  
+  </head>
+  <body>
+    <div class="container" style="background-color: rgba(192, 192, 192, 0.89)">
+      <div class="row">
+        <div class="col">
+          <h4>MY FEEDBACK</h4>
+          <hr />
+        </div>
+      </div>
+      <div class="row my-2">
+        <div class="col">
+          <small
+            >Please use the form below to share your feedback with us. Your
+            feedback plays an important role in helping us better the user
+            experience.</small
+          >
+        </div>
+      </div>
+      
+        <div class="row mt-4">
+          <div class="col-2">
+            <label for="Type of Issue"> Type of Issue</label>
+          </div>
+          <div class="col-7">
+            <select name="" id="Type of Issue" class="form-control">
+              <option value="Suggestions">Suggestions</option>
+              <option value="Appreciation">Appreciation</option>
+              <option value="Bug/error report">Bug/error report</option>
+              <option value="Complaint">Complaint</option>
+              <option value="Interested in services">
+                Interested in services
+              </option>
+              <option value="other">Other</option>
+            </select>
+          </div>
+        </div>
+        <div class="row my-3">
+          <div class="col-2">
+            <label for="Your complaint"> Your complaint</label>
+          </div>
+          <div class="col-7">
+            <input
+              type="text"
+              class="form-control"
+              placeholder="Write your feedback"
+              id="Your complaint"
+              style="height: 100px"
+            />
+          </div>
+        </div>
+        <div class="row my-3">
+          <div class="col-2"><label for="email-id"> Email-id*</label></div>
+          <div class="col-7">
+            <input type="text" class="form-control" id="email-id" />
+          </div>
+        </div>
+        <div class="row my-3">
+          <div class="col-2"><label for="fullname"> Full-name*</label></div>
+          <div class="col-7">
+            <input type="text" class="form-control" id="fullname" />
+          </div>
+          <span id="name"></span>
+        </div>
+        <div class="row my-3">
+          <div class="col-2"><label for="Phone-no"> Phone Number*</label></div>
+          <div class="col-7">
+            <input type="text" class="form-control" id="Phone-no" />
+          </div>
+        </div>
+        <div class="row my-3">
+          <div class="col-2"><label for="country"> Country</label></div>
+          <div class="col-7">
+            <input type="text" class="form-control" id="country" />
+          </div>
+        </div>
+        <div class="row my-3">
+          <div class="col-2"><label for="city"> City</label></div>
+          <div class="col-7">
+            <input type="text" class="form-control" id="city" />
+          </div>
+        </div>
+        <div>
+          <button type="submit" class="offset-5 mb-5">Submit</button>
+        </div>
+     
+    </div>
+   
+  </body>
+</html>
